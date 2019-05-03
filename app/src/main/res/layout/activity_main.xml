@@ -2,6 +2,7 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gotomain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mama"
@@ -17,7 +18,7 @@
         tools:layout_editor_absoluteY="4dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/gotohome"
         android:layout_width="263dp"
         android:layout_height="60dp"
         android:layout_marginStart="8dp"
@@ -26,8 +27,10 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="gotohome"
         android:text="GET STARTED"
+        android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,7 +58,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="CHILDREN   READ ALL THE TIME."
-        android:textColor="@color/colorAccent"
+        android:textColor="@android:color/white"
         android:textSize="34sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -64,5 +67,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.791" />
+
 
 </android.support.constraint.ConstraintLayout>
