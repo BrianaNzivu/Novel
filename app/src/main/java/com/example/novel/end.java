@@ -5,15 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class home extends AppCompatActivity {
+public class end extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_end);
     }
-    public void gotopage1(View view) {
-        Intent Intent =new Intent (this,page1.class);
+    public void gotohome(View view) {
+        Intent Intent =new Intent (this,home.class);
         startActivity(Intent);
     }
 }

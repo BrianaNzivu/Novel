@@ -2,16 +2,16 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/gotohome"
+    android:id="@+id/gotoend"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backone"
-    tools:context=".home">
+    android:background="@drawable/background"
+    tools:context=".end">
 
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="289dp"
-        android:layout_height="340dp"
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="376dp"
+        android:layout_height="108dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -20,51 +20,47 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.288"
-        app:srcCompat="@drawable/cover" />
+        app:layout_constraintVertical_bias="0.713"
+        app:srcCompat="@drawable/end" />
 
     <Button
         android:id="@+id/gotohome"
-        android:layout_width="149dp"
-        android:layout_height="50dp"
+        android:layout_width="177dp"
+        android:layout_height="70dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@drawable/buttonback"
-        android:onClick="gotopage1"
-        android:text="READ"
-        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/endtwo"
+        android:onClick="gotohome"
+        android:text="HOME"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.902" />
+        app:layout_constraintVertical_bias="0.953" />
 
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="280dp"
-        android:layout_height="60dp"
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="332dp"
+        android:layout_height="259dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="TODAY'S READ IS:"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.033" />
-
+        app:layout_constraintVertical_bias="0.366"
+        app:srcCompat="@drawable/baby" />
 
 </android.support.constraint.ConstraintLayout>
