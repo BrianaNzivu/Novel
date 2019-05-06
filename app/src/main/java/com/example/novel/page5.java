@@ -12,12 +12,12 @@ public class page5 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page5);
     }
-    public void gotopage4(View view) {
-        Intent Intent =new Intent (this,page2.class);
+    public void gotopage6(View view) {
+        Intent Intent =new Intent (this,page6.class);
         startActivity(Intent);
     }
-    public void gotopage2(View view) {
-        Intent Intent =new Intent (this,page2.class);
+    public void gotopage4(View view) {
+        Intent Intent =new Intent (this,page4.class);
         startActivity(Intent);
     }
 }

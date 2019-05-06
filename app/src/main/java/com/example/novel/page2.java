@@ -13,11 +13,11 @@ public class page2 extends AppCompatActivity {
         setContentView(R.layout.activity_page2);
     }
     public void gotopage3(View view) {
-        Intent Intent =new Intent (this,page6.class);
+        Intent Intent =new Intent (this,page3.class);
         startActivity(Intent);
     }
     public void gotopage1(View view) {
-        Intent Intent =new Intent (this,page2.class);
+        Intent Intent =new Intent (this,page1.class);
         startActivity(Intent);
     }
 }

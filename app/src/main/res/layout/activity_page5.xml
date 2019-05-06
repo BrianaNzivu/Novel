@@ -2,7 +2,7 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/gotofive"
+    android:id="@+id/gotohome"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
@@ -10,8 +10,8 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="359dp"
-        android:layout_height="331dp"
+        android:layout_width="298dp"
+        android:layout_height="317dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -20,18 +20,18 @@
         android:layout_marginBottom="8dp"
         android:text="And at that very moment, we heard a loud whack! From outside in the fields came a sickening smack of an axe on a tree. Then we heard the tree fall. The very last Truffula Tree of them all! No more trees. No more Thneed’s. No more work to be done. So, in no time, my uncles and aunts, every one, all waved my good-bye. They jumped into my cars and drove away under the smoke-smuggered stars. Now all that was left beneath the bad-smelling sky was my big empty factory... the Lorax... and I. The Lorax said nothing. Just gave me a glance... just gave me a very sad, sad backward glance... as he lifted himself by the seat of his pants. "
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="18sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.623"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.716" />
+        app:layout_constraintVertical_bias="0.68" />
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="179dp"
-        android:layout_height="138dp"
+        android:layout_width="159dp"
+        android:layout_height="107dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -42,11 +42,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.197"
+        app:layout_constraintVertical_bias="0.115"
         app:srcCompat="@drawable/notrees" />
 
     <ImageButton
-        android:id="@+id/gotofive"
+        android:id="@+id/gotohome"
         android:layout_width="92dp"
         android:layout_height="65dp"
         android:layout_marginStart="8dp"
@@ -66,7 +66,7 @@
         app:srcCompat="@android:drawable/ic_media_rew" />
 
     <ImageButton
-        android:id="@+id/gotosix"
+        android:id="@+id/gotoend"
         android:layout_width="92dp"
         android:layout_height="65dp"
         android:layout_marginStart="8dp"
@@ -76,7 +76,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/next"
-        android:onClick="gotosix"
+        android:onClick="gotopage6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.877"
@@ -87,8 +87,8 @@
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="130dp"
-        android:layout_height="86dp"
+        android:layout_width="59dp"
+        android:layout_height="51dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -97,9 +97,8 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.012"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/pagefive" />
 </android.support.constraint.ConstraintLayout>

@@ -12,8 +12,8 @@ public class end extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_end);
     }
-    public void gotomain(View view) {
-        Intent Intent =new Intent (this,main.class);
+    public void gotohome(View view) {
+        Intent Intent =new Intent (this,home.class);
         startActivity(Intent);
     }
 }

@@ -2,7 +2,7 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/gotosix"
+    android:id="@+id/gotoend"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
@@ -10,26 +10,25 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="374dp"
-        android:layout_height="327dp"
+        android:layout_width="325dp"
+        android:layout_height="218dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="What was the Lorax? Any why was it there? And why was it lifted and taken somewhere from the far end of town where the Grickle-grass grows? The old Once-ler still lives here. Ask him, he knows. You won't see the Once-ler. Don't knock at his door. He stays in his Lerkim on top of his store. He stays in his Lerkim, cold under the floor, where he makes his own clothes out of miff-muffered moof. And on special dank midnights in August, he peeks out of the shutters and sometimes he speaks and tells how the Lorax was lifted away. He'll tell you, perhaps... if you're willing to pay. "
+        android:text="What was the Lorax? Any why was it there? And why was it lifted and taken somewhere from the far end of town where the Grickle-grass grows? The old Once-ler still lives here. Ask him, he knows. You won't see the Once-ler. Don't knock at his door. He stays in his Lerkim on top of his store. He stays in his Lerkim, cold under the floor, where he makes his own clothes out of miff-muffered moof. And on special dank midnights in August. "
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="18sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.38"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.721" />
+        app:layout_constraintVertical_bias="0.674" />
 
     <ImageButton
-        android:id="@+id/gotofive"
+        android:id="@+id/gotohome"
         android:layout_width="92dp"
         android:layout_height="65dp"
         android:layout_marginStart="8dp"
@@ -49,7 +48,7 @@
         app:srcCompat="@android:drawable/ic_media_rew" />
 
     <ImageButton
-        android:id="@+id/gotosix"
+        android:id="@+id/gotoend"
         android:layout_width="92dp"
         android:layout_height="65dp"
         android:layout_marginStart="8dp"
@@ -62,7 +61,7 @@
         android:onClick="gotopage3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintHorizontal_bias="0.973"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.955"
@@ -70,8 +69,8 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="190dp"
-        android:layout_height="187dp"
+        android:layout_width="212dp"
+        android:layout_height="168dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -80,15 +79,16 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.153"
+        app:layout_constraintVertical_bias="0.144"
         app:srcCompat="@drawable/discover" />
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="111dp"
-        android:layout_height="89dp"
+        android:layout_width="56dp"
+        android:layout_height="45dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -99,7 +99,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.012"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/pagetwo" />
 
 </android.support.constraint.ConstraintLayout>
